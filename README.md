@@ -1,8 +1,12 @@
 # D-Link-firmware-unpack
 Firmware with the encrpted_img or shrs
 
+<br/>
 
-+ ***Started with `encrpted_img` firmware unpack***
+<br/>
+
+
+##  ***Started with `encrpted_img` firmware unpack***
 
 `./encrpted_de firmware save_bin`
 
@@ -16,7 +20,12 @@ Then, we use binwalk to extract the image.
 `binwalk -Me image`
 
 
-+ ***Started with `shrs` firmware unpack***
+<br/>
+
+<br/>
+
+
+##  ***Started with `shrs` firmware unpack***
 
 `python3 shrs_de -i firmware -o image`
 
