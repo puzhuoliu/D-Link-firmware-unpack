@@ -87,13 +87,13 @@ class DcryptLink:
     def set_decryption_key(self):
         print('[*] Calculating decryption key...')
 
-        in_file = bytes.fromhex('C8D32F409CACB347C8D26FDCB9090B3C')
-        user_key = bytes.fromhex('358790034519F8C8235DB6492839A73F')
-        ivec = bytes.fromhex('98C9D8F0133D0695E2A709C8B69682D4')
+        in_file = bytes.fromhex('XXX')
+        user_key = bytes.fromhex('XXX')
+        ivec = bytes.fromhex('XXX')
         cipher = AES.new(user_key, AES.MODE_CBC, ivec)
         self.dec_key = cipher.decrypt(in_file)
 
-        self.verify(self.dec_key, bytes.fromhex('C05FBF1936C99429CE2A0781F08D6AD8'))
+        self.verify(self.dec_key, bytes.fromhex('XXX'))
 
 
 def main():
