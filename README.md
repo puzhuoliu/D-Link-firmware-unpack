@@ -1,5 +1,5 @@
 # D-Link-firmware-unpack
-Firmware with the encrpted_img or shrs
+Firmware with the encrpted_img or shrs. Please note that to protect the company's intellectual property, the key is replaced by `XXX`.
 
 <br/>
 
